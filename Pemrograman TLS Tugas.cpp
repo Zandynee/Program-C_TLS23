@@ -1,5 +1,3 @@
-
-
 #include <iostream>
 #include <cmath>
 #include <string.h>
@@ -20,7 +18,6 @@ int main()
         cin >> jenisKota;
     }
     cout << "\nSilahkan masukkan jumlah penduduk (dalam ribuan): ";
-    
     float jumlahPenduduk;
     cin >> jumlahPenduduk;
     while (jumlahPenduduk <= 0)
@@ -65,7 +62,6 @@ int main()
             cout << "Silahkan masukkan jarak tahun lagi: ";
             cin >> jarakTahun;
         }
-        
     }
     cout << "Silahkan masukkan laju pertumbuhan penduduk kota tersebut (dalam persen): ";
     float lajuTumbuh;
@@ -151,9 +147,6 @@ int main()
                 cout << whatosay[j] << " yang diperlukan sebanyak " << print[j] << " " << satuan[j] << endl;
                 j = j++;
             }
-            
-            
-            
         }
         cout << "\nTABEL FORMULASI"<< endl;
         cout << endl;
@@ -164,29 +157,23 @@ int main()
             if (whatosay[k].length()<= 15)
             {
                 cout << whatosay[k] << "\t\t\t\t\t | " << satuan[k] << "\t | " << print[k] << endl;
-                
             }
             else if (whatosay[k].length()  > 15 && whatosay[k].length() <26)
             {
                 cout << whatosay[k] << "\t\t\t\t | " << satuan[k] << "\t | " << print[k] << endl;
-                
             }
             else if (whatosay[k].length() >= 26 && whatosay[k].length() <= 33)
             {
                 cout << whatosay[k] << "\t\t\t | " << satuan[k] << "\t | " << print[k] << endl;
-                
             }
             else if (whatosay[k].length() > 33 && whatosay[k].length() < 42)
             {
                 cout << whatosay[k] << "\t\t | " << satuan[k] << "\t | " << print[k] << endl;
-                
             }
             else if (whatosay[k].length() > 42)
             {
                 cout << whatosay[k] << "\t | " << satuan[k] << "\t | " << print[k] << endl;
-
             }
-
             k = k++;
         }
     }else
@@ -253,7 +240,6 @@ int main()
                 j = j++;
             }
         }
-        
         cout << "\nTABEL FORMULASI" << endl;
         cout << endl;
         cout << "Infrastruktur \t\t\t\t\t | Satuan \t | Hasil Hitung" << endl;
@@ -288,12 +274,9 @@ int main()
             else if (whatosay[k].length() >= 48)
             {
                 cout << whatosay[k] << " | " << satuan[k] << "\t | " << print[k] << endl;
-
             }
-
             k = k++;
         }
-        
     }
     string wk;
     cin >> wk;
