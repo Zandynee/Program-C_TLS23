@@ -133,19 +133,19 @@ int main()
                 print[j] = jumlahPenduduk * multiplier[j] * pow(10, power[j]);
                 print[j] = ceil(double(print[j]));
                 cout << whatosay[j] << " yang diperlukan sebanyak " << print[j] << " " << satuan[j] << endl;
-                j = j++;
+                j++;
             }
             else if (j == 7)
             {
                 print[j] = jumlahPenduduk * multiplier[j] * pow(10, power[j]) + 5;
                 cout << whatosay[j] << " yang diperlukan sebanyak " << print[j] << " " << satuan[j] << endl;
-                j = j++;
+                j++;
             }
             else
             {
                 print[j] = jumlahPenduduk * multiplier[j] * pow(10, power[j]);
                 cout << whatosay[j] << " yang diperlukan sebanyak " << print[j] << " " << satuan[j] << endl;
-                j = j++;
+                j++;
             }
         }
         cout << "\nTABEL FORMULASI"<< endl;
@@ -174,7 +174,7 @@ int main()
             {
                 cout << whatosay[k] << "\t | " << satuan[k] << "\t | " << print[k] << endl;
             }
-            k = k++;
+            k++;
         }
     }else
     {
@@ -224,20 +224,20 @@ int main()
                 print[j] = jumlahPenduduk * multiplier[j] * pow(10, power[j]);
                 print[j] = ceil(double(print[j]));
                 cout << whatosay[j] << " yang diperlukan sebanyak " << print[j] << " " << satuan[j] << endl;
-                j = j++;
+                j++;
             }
             else 
                 if (j == 9)
             {
                 print[j] = jumlahPenduduk * multiplier[j] * pow(10, power[j]) + 5;
                 cout << whatosay[j] << " yang diperlukan sebanyak " << print[j] << " " << satuan[j] << endl;
-                j = j++;
+                j++;
             }
                 else
             {
                 print[j] = jumlahPenduduk * multiplier[j] * pow(10, power[j]);
                 cout << whatosay[j] << " yang diperlukan sebanyak " << print[j] << " " << satuan[j] << endl;
-                j = j++;
+                j++;
             }
         }
         cout << "\nTABEL FORMULASI" << endl;
@@ -275,7 +275,7 @@ int main()
             {
                 cout << whatosay[k] << " | " << satuan[k] << "\t | " << print[k] << endl;
             }
-            k = k++;
+            k++;
         }
     }
     string wk;
